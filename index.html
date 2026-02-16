@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Klyn - Tu Ecosistema Financiero Desbloqueado</title>
+    <meta name="description"
+        content="Klyn: La plataforma Fintech venezolana que te da el poder de gestionar tus suscripciones, ahorrar por metas y manejar dólares con transparencia.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="top">
+        <div class="header-content">
+            <a href="#" class="logo">
+                <div class="logo-icon">
+                    <img src="assets/ISOTIPO.svg" alt="Klyn Logo">
+                </div>
+            </a>
+
+            <nav class="nav" id="mainNav">
+                <div class="nav-slider" id="navSlider"></div>
+                <a href="#inicio" class="nav-item active" data-index="0">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12.8924 2.80982L21.4876 9.59547C21.8112 9.85095 22 10.2405 22 10.6528C22 11.3969 21.3969 12 20.6528 12H20V15.5C20 18.3284 20 19.7426 19.1213 20.6213C18.2426 21.5 16.8284 21.5 14 21.5H10C7.17157 21.5 5.75736 21.5 4.87868 20.6213C4 19.7426 4 18.3284 4 15.5V12H3.34716C2.60315 12 2 11.3969 2 10.6528C2 10.2405 2.1888 9.85095 2.5124 9.59547L11.1076 2.80982C11.3617 2.60915 11.6761 2.5 12 2.5C12.3239 2.5 12.6383 2.60915 12.8924 2.80982Z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M14.5 21.5V17C14.5 16.0654 14.5 15.5981 14.299 15.25C14.1674 15.022 13.978 14.8326 13.75 14.701C13.4019 14.5 12.9346 14.5 12 14.5C11.0654 14.5 10.5981 14.5 10.25 14.701C10.022 14.8326 9.83261 15.022 9.70096 15.25C9.5 15.5981 9.5 16.0654 9.5 17V21.5"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Inicio
+                </a>
+                <a href="#nosotros" class="nav-item" data-index="1">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 8C15 9.65685 13.6569 11 12 11C10.3431 11 9 9.65685 9 8C9 6.34315 10.3431 5 12 5C13.6569 5 15 6.34315 15 8Z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M16 4C17.6568 4 19 5.34315 19 7C19 8.22309 18.268 9.27523 17.2183 9.7423"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M13.7143 14H10.2857C7.91876 14 5.99998 15.9188 5.99998 18.2857C5.99998 19.2325 6.76749 20 7.71426 20H16.2857C17.2325 20 18 19.2325 18 18.2857C18 15.9188 16.0812 14 13.7143 14Z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M17.7143 13C20.0812 13 22 14.9188 22 17.2857C22 18.2325 21.2325 19 20.2857 19"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M8 4C6.34315 4 5 5.34315 5 7C5 8.22309 5.73193 9.27523 6.78168 9.7423"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M3.71429 19C2.76751 19 2 18.2325 2 17.2857C2 14.9188 3.91878 13 6.28571 13"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Nosotros
+                </a>
+                <a href="#inversionistas" class="nav-item" data-index="2">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20.9427 16.8354C20.2864 12.8866 18.2432 9.94613 16.467 8.219C15.9501 7.71642 15.6917 7.46513 15.1208 7.23257C14.5499 7 14.0592 7 13.0778 7H10.9222C9.94081 7 9.4501 7 8.87922 7.23257C8.30834 7.46513 8.04991 7.71642 7.53304 8.219C5.75682 9.94613 3.71361 12.8866 3.05727 16.8354C2.56893 19.7734 5.27927 22 8.30832 22H15.6917C18.7207 22 21.4311 19.7734 20.9427 16.8354Z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path
+                            d="M7.25662 4.44287C7.05031 4.14258 6.75128 3.73499 7.36899 3.64205C8.00392 3.54651 8.66321 3.98114 9.30855 3.97221C9.89237 3.96413 10.1898 3.70519 10.5089 3.33548C10.8449 2.94617 11.3652 2 12 2C12.6348 2 13.1551 2.94617 13.4911 3.33548C13.8102 3.70519 14.1076 3.96413 14.6914 3.97221C15.3368 3.98114 15.9961 3.54651 16.631 3.64205C17.2487 3.73499 16.9497 4.14258 16.7434 4.44287L15.8105 5.80064C15.4115 6.38146 15.212 6.67187 14.7944 6.83594C14.3769 7 13.8373 7 12.7582 7H11.2418C10.1627 7 9.6231 7 9.20556 6.83594C8.78802 6.67187 8.5885 6.38146 8.18945 5.80064L7.25662 4.44287Z"
+                            stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                        <path
+                            d="M13.6267 12.9186C13.4105 12.1205 12.3101 11.4003 10.9892 11.9391C9.66829 12.4778 9.45847 14.2113 11.4565 14.3955C12.3595 14.4787 12.9483 14.2989 13.4873 14.8076C14.0264 15.3162 14.1265 16.7308 12.7485 17.112C11.3705 17.4932 10.006 16.8976 9.85742 16.0517M11.8417 10.9927V11.7531M11.8417 17.2293V17.9927"
+                            stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    Inversionistas
+                </a>
+            </nav>
+
+            <button class="cta-button">Contáctanos</button>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#inicio" class="active">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#inversionistas">Inversionistas</a>
+        <button class="mobile-cta">Contáctanos</button>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-circles">
+                        <div class="circle circle-1"></div>
+                        <div class="circle circle-2"></div>
+                        <div class="circle circle-3"></div>
+                        <div class="circle circle-4"></div>
+                        <div class="circle circle-5"></div>
+                    </div>
+                    <div class="hero-text">
+                        <span class="badge reveal">Próximamente...</span>
+                        <h1 class="reveal reveal-delay-1">Klyn: Tu Ecosistema<br><span class="gray">Financiero
+                                Desbloqueado.</span></h1>
+                        <p class="hero-description reveal reveal-delay-2">La plataforma Fintech venezolana que te da el
+                            poder de gestionar tus suscripciones, ahorrar por metas y manejar dólares con transparencia.
+                        </p>
+                        <div class="hero-buttons reveal reveal-delay-3">
+                            <button class="btn-secondary">Mas información</button>
+                            <button class="btn-primary">Notificarme del lanzamiento</button>
+                        </div>
+                    </div>
+                    <div class="hero-visual reveal reveal-delay-2">
+                        <img src="assets/ESTADISTICAS.svg" alt="Klyn Dashboard" loading="eager">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features" id="nosotros">
+            <div class="features-container">
+                <div class="features-grid">
+                    <div class="feature-card reveal">
+                        <div class="feature-icon">
+                            <img src="https://www.figma.com/api/mcp/asset/15739aa8-7898-446c-92a2-45e329bb15e5"
+                                alt="PayPal">
+                        </div>
+                        <h3>Liquidación PayPal:<br>Tu saldo es libre.</h3>
+                        <p class="feature-subtitle">Rompemos la fricción.</p>
+                        <p class="feature-description">Vincula tu cuenta PayPal una sola vez y retira tus fondos
+                            directamente a tu saldo Klyn en USD. Olvídate de intermediarios, esperas y altas comisiones.
+                            Tus dólares, listos para ser usados o retirados.</p>
+                    </div>
+                    <div class="feature-card reveal reveal-delay-1">
+                        <div class="feature-icon">
+                            <img src="https://www.figma.com/api/mcp/asset/46920dea-3faa-4bd2-952c-d4f966e30b3f"
+                                alt="Empresa">
+                        </div>
+                        <h3>Cuenta de Empresa:<br>Pagos automáticos inteligentes.</h3>
+                        <p class="feature-subtitle">Nómina y proveedores, simplificados.</p>
+                        <p class="feature-description">Automatiza tus operaciones. Programa pagos recurrentes de nómina
+                            a tus empleados y a proveedores con un solo clic. Klyn gestiona las transferencias, la
+                            contabilidad y los envíos a cuentas bancarias o plataformas de retiro internacionales.</p>
+                    </div>
+                    <div class="feature-card reveal reveal-delay-2">
+                        <div class="feature-icon">
+                            <img src="https://www.figma.com/api/mcp/asset/3f121e4b-d988-4081-b6a1-d03a091c49fa"
+                                alt="Seguridad">
+                        </div>
+                        <h3>Seguridad:<br>La solidez es innegociable.</h3>
+                        <p class="feature-subtitle">Respaldados por el sistema regulado.</p>
+                        <p class="feature-description">Operamos bajo el marco legal de entidades bancarias reguladas. Tu
+                            dinero y tus datos están protegidos con encriptación de grado bancario y autenticación
+                            multifactor (MFA). Compliance riguroso en cada transacción.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Goals Section -->
+        <section class="goals reveal" id="inversionistas">
+            <div class="goals-content">
+                <div class="goals-visual">
+                    <img src="assets/METRAS.svg" alt="Metas Visual">
+                </div>
+                <div class="goals-text">
+                    <h2>Convierte tus sueños<br>en <span class="highlight">Metas</span> reales!</h2>
+                    <p>Dejar de gastar es difícil. Con Metas, estableces el camino y Klyn se encarga de guardar el
+                        dinero automáticamente para que lo logres sin darte cuenta.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- App Control Section -->
+        <section class="app-control reveal">
+            <div class="app-control-content">
+                <div class="app-control-text">
+                    <span class="badge-outline">El próximo movimiento es tuyo</span>
+                    <h2>Control total en tus manos.<br>Así se siente <span class="gray">Klyn.</span></h2>
+                    <p>Administra tu saldo, programa tus metas de ahorro y envía tus dólares con la máxima transparencia
+                        desde esta interfaz sencilla.</p>
+                    <button class="btn-dark">Mas información</button>
+                </div>
+                <div class="phone-mockup">
+                    <img src="assets/PHONE.svg" alt="Klyn Mobile App">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon">
+                            <img src="assets/LOGO%20FOOTER.svg" alt="Klyn Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
